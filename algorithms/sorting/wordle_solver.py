@@ -10,7 +10,7 @@ from typing import Dict, List
 # constants with the data that comes back.
 
 # Place letters here that were incorrect and cannot be used again
-DEAD_LETTERS: List[str] = []
+DEAD_LETTERS: List[str] = [A, E, R, T, K,]
 
 # TODO: Prioritize words without repeat letters over those with repeats for guesses 1, 2, & 3
 
@@ -25,7 +25,7 @@ DEAD_LETTERS: List[str] = []
 CORRECT_LETTERS_WRONG_POSITIONS: Dict[str, int] = {}
 
 # Place letters here that are verified correct (green background)
-VERIFIED_LETTERS: List[str] = ['', '', '', '', '']
+VERIFIED_LETTERS: List[str] = ['S', '', 'C', '']
 
 
 """Do not edit code below this line!"""
